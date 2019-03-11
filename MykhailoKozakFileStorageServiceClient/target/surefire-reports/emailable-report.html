@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num attn">3</td><td class="num">38 318</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">lab.web.DeleteSameFileTwiceApiTest</td><td><a href="#m0">tryWriteFileTwiceSoap</a></td><td rowspan="1">1552312260177</td><td rowspan="1">252</td></tr><tr class="failedodd"><td rowspan="1">lab.web.DownloadSameFileTwiceApiTest</td><td><a href="#m1">tryWriteFileTwiceSoap</a></td><td rowspan="1">1552312258764</td><td rowspan="1">814</td></tr><tr class="failedeven"><td rowspan="1">lab.web.WriteSameFileTwiceApiTest</td><td><a href="#m2">tryWriteFileTwiceSoap</a></td><td rowspan="1">1552312255502</td><td rowspan="1">2366</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">lab.web.DeleteSameFileTwiceApiTest</td><td><a href="#m3">tryWriteFileTwiceRest</a></td><td rowspan="1">1552312259712</td><td rowspan="1">227</td></tr><tr class="passedodd"><td rowspan="1">lab.web.DownloadSameFileTwiceApiTest</td><td><a href="#m4">tryWriteFileTwiceRest</a></td><td rowspan="1">1552312258109</td><td rowspan="1">336</td></tr><tr class="passedeven"><td rowspan="2">lab.web.WriteDeleteApiTest</td><td><a href="#m5">tryWriteAndDeleteFileRest</a></td><td rowspan="1">1552312222475</td><td rowspan="1">15843</td></tr><tr class="passedeven"><td><a href="#m6">tryWriteAndDeleteFileSoap</a></td><td rowspan="1">1552312239308</td><td rowspan="1">13674</td></tr><tr class="passedodd"><td rowspan="2">lab.web.WriteDeleteFiveTimesApiTest</td><td><a href="#m7">tryWriteAndDeleteFileRest</a></td><td rowspan="1">1552312253507</td><td rowspan="1">299</td></tr><tr class="passedodd"><td><a href="#m8">tryWriteAndDeleteFileSoap</a></td><td rowspan="1">1552312254074</td><td rowspan="1">519</td></tr><tr class="passedeven"><td rowspan="1">lab.web.WriteSameFileTwiceApiTest</td><td><a href="#m9">tryWriteFileTwiceRest</a></td><td rowspan="1">1552312254827</td><td rowspan="1">458</td></tr></tbody></table><h2>Test</h2><h3 id="m0">lab.web.DeleteSameFileTwiceApiTest#tryWriteFileTwiceSoap</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:51:00 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+
+<br/>2019-03-11 15:51:00 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+
+<br/>2019-03-11 15:51:00 INFO  DeleteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+
+<br/>2019-03-11 15:51:00 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:51:00 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>2019-03-11 15:51:00 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] failed in
+
+<br/>2019-03-11 15:51:00 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] failed in
+
+</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:138)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy47.deleteFile(Unknown Source)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap(DeleteSameFileTwiceApiTest.java:33)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:134)
+	... 36 more
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">lab.web.DownloadSameFileTwiceApiTest#tryWriteFileTwiceSoap</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+
+<br/>2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+
+<br/>2019-03-11 15:50:58 INFO  DownloadSameFileTwiceApiTest:30 - tryWriteAndDeleteFileSoap test
+
+<br/>2019-03-11 15:50:58 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:50:58 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>2019-03-11 15:50:59 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] failed in
+
+<br/>2019-03-11 15:50:59 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] failed in
+
+</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:138)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy47.downloadFile(Unknown Source)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap(DownloadSameFileTwiceApiTest.java:34)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:134)
+	... 36 more
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">lab.web.WriteSameFileTwiceApiTest#tryWriteFileTwiceSoap</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:50:55 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+
+<br/>2019-03-11 15:50:55 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+
+<br/>2019-03-11 15:50:55 INFO  WriteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+
+<br/>2019-03-11 15:50:55 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:50:55 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>2019-03-11 15:50:57 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] failed in
+
+<br/>2019-03-11 15:50:57 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] failed in
+
+</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:138)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy47.writeFile(Unknown Source)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap(WriteSameFileTwiceApiTest.java:33)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:134)
+	... 36 more
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">lab.web.DeleteSameFileTwiceApiTest#tryWriteFileTwiceRest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:50:59 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+
+<br/>2019-03-11 15:50:59 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+
+<br/>2019-03-11 15:50:59 INFO  DeleteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+
+<br/>2019-03-11 15:50:59 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:50:59 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>2019-03-11 15:50:59 INFO  FileRESTServiceClient:125 - deleteFile method
+
+<br/>2019-03-11 15:50:59 INFO  FileRESTServiceClient:130 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/delete/New2
+
+<br/>2019-03-11 15:50:59 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>2019-03-11 15:50:59 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] passed successful
+
+<br/>2019-03-11 15:50:59 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.deleteFile(FileRESTServiceClient.java:138)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest(DeleteSameFileTwiceApiTest.java:23)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">lab.web.DownloadSameFileTwiceApiTest#tryWriteFileTwiceRest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+
+<br/>2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+
+<br/>2019-03-11 15:50:58 INFO  DownloadSameFileTwiceApiTest:21 - tryWriteAndDeleteFileRest test
+
+<br/>2019-03-11 15:50:58 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:50:58 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>2019-03-11 15:50:58 INFO  FileRESTServiceClient:76 - downloadFile method
+
+<br/>2019-03-11 15:50:58 INFO  FileRESTServiceClient:81 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/download?fileName=New2&filePath=src/test
+
+<br/>2019-03-11 15:50:58 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>2019-03-11 15:50:58 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] passed successful
+
+<br/>2019-03-11 15:50:58 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.downloadFile(FileRESTServiceClient.java:93)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest(DownloadSameFileTwiceApiTest.java:24)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">lab.web.WriteDeleteApiTest#tryWriteAndDeleteFileRest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:50:22 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+
+<br/>2019-03-11 15:50:22 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+
+<br/>2019-03-11 15:50:22 INFO  WriteDeleteApiTest:20 - tryWriteAndDeleteFileRest test
+
+<br/>2019-03-11 15:50:22 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:50:22 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>2019-03-11 15:50:23 INFO  FileRESTServiceClient:52 - writeFile method
+
+<br/>2019-03-11 15:50:24 INFO  FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+
+<br/>2019-03-11 15:50:38 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>2019-03-11 15:50:38 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+
+<br/>2019-03-11 15:50:38 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.writeFile(FileRESTServiceClient.java:69)
+	at lab.web.WriteDeleteApiTest.tryWriteAndDeleteFileRest(WriteDeleteApiTest.java:23)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">lab.web.WriteDeleteApiTest#tryWriteAndDeleteFileSoap</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:50:39 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+
+<br/>2019-03-11 15:50:39 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+
+<br/>2019-03-11 15:50:39 INFO  WriteDeleteApiTest:29 - tryWriteAndDeleteFileSoap test
+
+<br/>2019-03-11 15:50:39 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:50:39 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>2019-03-11 15:50:52 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+
+<br/>2019-03-11 15:50:52 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">lab.web.soap.ServiceException
+	at lab.web.WriteDeleteApiTest.tryWriteAndDeleteFileSoap(WriteDeleteApiTest.java:38)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">lab.web.WriteDeleteFiveTimesApiTest#tryWriteAndDeleteFileRest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:50:53 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+
+<br/>2019-03-11 15:50:53 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+
+<br/>2019-03-11 15:50:53 INFO  WriteDeleteFiveTimesApiTest:20 - tryWriteAndDeleteFileRest test
+
+<br/>2019-03-11 15:50:53 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:50:53 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>2019-03-11 15:50:53 INFO  FileRESTServiceClient:52 - writeFile method
+
+<br/>2019-03-11 15:50:53 INFO  FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+
+<br/>2019-03-11 15:50:53 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>2019-03-11 15:50:53 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+
+<br/>2019-03-11 15:50:53 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.writeFile(FileRESTServiceClient.java:69)
+	at lab.web.WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest(WriteDeleteFiveTimesApiTest.java:23)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">lab.web.WriteDeleteFiveTimesApiTest#tryWriteAndDeleteFileSoap</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:50:54 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+
+<br/>2019-03-11 15:50:54 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+
+<br/>2019-03-11 15:50:54 INFO  WriteDeleteFiveTimesApiTest:37 - tryWriteAndDeleteFileSoap test
+
+<br/>2019-03-11 15:50:54 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:50:54 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>2019-03-11 15:50:54 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+
+<br/>2019-03-11 15:50:54 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">lab.web.soap.ServiceException
+	at lab.web.WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap(WriteDeleteFiveTimesApiTest.java:54)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">lab.web.WriteSameFileTwiceApiTest#tryWriteFileTwiceRest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2019-03-11 15:50:54 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+
+<br/>2019-03-11 15:50:54 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+
+<br/>2019-03-11 15:50:54 INFO  WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+
+<br/>2019-03-11 15:50:54 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>2019-03-11 15:50:54 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>2019-03-11 15:50:54 INFO  FileRESTServiceClient:52 - writeFile method
+
+<br/>2019-03-11 15:50:54 INFO  FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+
+<br/>2019-03-11 15:50:55 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>2019-03-11 15:50:55 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] passed successful
+
+<br/>2019-03-11 15:50:55 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] passed successful
+
+</div></td></tr><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.writeFile(FileRESTServiceClient.java:69)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceRest(WriteSameFileTwiceApiTest.java:23)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

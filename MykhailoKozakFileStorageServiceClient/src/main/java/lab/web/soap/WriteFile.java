@@ -26,7 +26,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "writeFile", propOrder = {
+@XmlType(name = "writeFile1", propOrder = {
     "arg0"
 })
 public class WriteFile {

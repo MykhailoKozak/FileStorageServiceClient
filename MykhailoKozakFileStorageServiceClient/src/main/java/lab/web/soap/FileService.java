@@ -21,7 +21,7 @@ import javax.xml.ws.ResponseWrapper;
 @XmlSeeAlso({
     ObjectFactory.class
 })
-public interface FileService {
+public interface FileService extends lab.web.FileService {
 
 
     /**
@@ -33,8 +33,8 @@ public interface FileService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "writeFile", targetNamespace = "http://soap.web.lab/", className = "lab.web.soap.WriteFile")
-    @ResponseWrapper(localName = "writeFileResponse", targetNamespace = "http://soap.web.lab/", className = "lab.web.soap.WriteFileResponse")
+    @RequestWrapper(localName = "writeFile", targetNamespace = "http://soap.web.lab/", className = "WriteFile")
+    @ResponseWrapper(localName = "writeFileResponse", targetNamespace = "http://soap.web.lab/", className = "WriteFileResponse")
     public boolean writeFile(
         @WebParam(name = "arg0", targetNamespace = "")
         String arg0)
@@ -48,8 +48,8 @@ public interface FileService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getListAllFiles", targetNamespace = "http://soap.web.lab/", className = "lab.web.soap.GetListAllFiles")
-    @ResponseWrapper(localName = "getListAllFilesResponse", targetNamespace = "http://soap.web.lab/", className = "lab.web.soap.GetListAllFilesResponse")
+    @RequestWrapper(localName = "getListAllFiles", targetNamespace = "http://soap.web.lab/", className = "GetListAllFiles")
+    @ResponseWrapper(localName = "getListAllFilesResponse", targetNamespace = "http://soap.web.lab/", className = "GetListAllFilesResponse")
     public List<String> getListAllFiles();
 
     /**
@@ -61,8 +61,8 @@ public interface FileService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "deleteFile", targetNamespace = "http://soap.web.lab/", className = "lab.web.soap.DeleteFile")
-    @ResponseWrapper(localName = "deleteFileResponse", targetNamespace = "http://soap.web.lab/", className = "lab.web.soap.DeleteFileResponse")
+    @RequestWrapper(localName = "deleteFile", targetNamespace = "http://soap.web.lab/", className = "DeleteFile")
+    @ResponseWrapper(localName = "deleteFileResponse", targetNamespace = "http://soap.web.lab/", className = "DeleteFileResponse")
     public boolean deleteFile(
         @WebParam(name = "arg0", targetNamespace = "")
         String arg0)
@@ -79,8 +79,8 @@ public interface FileService {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "downloadFile", targetNamespace = "http://soap.web.lab/", className = "lab.web.soap.DownloadFile")
-    @ResponseWrapper(localName = "downloadFileResponse", targetNamespace = "http://soap.web.lab/", className = "lab.web.soap.DownloadFileResponse")
+    @RequestWrapper(localName = "downloadFile", targetNamespace = "http://soap.web.lab/", className = "DownloadFile")
+    @ResponseWrapper(localName = "downloadFileResponse", targetNamespace = "http://soap.web.lab/", className = "DownloadFileResponse")
     public boolean downloadFile(
         @WebParam(name = "arg0", targetNamespace = "")
         String arg0,

@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "writeFileResponse", propOrder = {
+@XmlType(name = "writeFileResponse1", propOrder = {
     "_return"
 })
 public class WriteFileResponse {

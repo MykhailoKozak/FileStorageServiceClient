@@ -1,0 +1,816 @@
+2019-03-10 17:11:02 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:11:02 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 17:11:02 INFO  lab.web.WriteDeleteApiTest:19 - tryToExchangeOneBookTwoTimesRest test
+2019-03-10 17:11:02 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:11:02 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:11:04 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-10 17:11:05 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New
+2019-03-10 17:11:06 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-10 17:11:06 INFO  web.utils.LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] passed successful
+2019-03-10 17:11:06 INFO  lab.web.WriteDeleteApiTest:43 - after method
+2019-03-10 17:11:06 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:12:42 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:12:42 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 17:12:42 INFO  lab.web.WriteDeleteApiTest:19 - tryToExchangeOneBookTwoTimesRest test
+2019-03-10 17:12:42 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:12:42 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:12:44 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-10 17:12:44 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New
+2019-03-10 17:12:45 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-10 17:12:45 INFO  web.utils.LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] passed successful
+2019-03-10 17:12:45 INFO  lab.web.WriteDeleteApiTest:43 - after method
+2019-03-10 17:12:45 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:15:09 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:15:09 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 17:15:09 INFO  lab.web.WriteDeleteApiTest:19 - tryToExchangeOneBookTwoTimesRest test
+2019-03-10 17:15:09 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:15:09 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:15:11 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-10 17:15:12 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New1
+2019-03-10 17:15:12 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-10 17:15:12 INFO  web.utils.LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] passed successful
+2019-03-10 17:15:12 INFO  lab.web.WriteDeleteApiTest:43 - after method
+2019-03-10 17:15:12 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:27:52 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@5e5792a0
+2019-03-10 17:27:52 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@21bcffb5], Started
+2019-03-10 17:27:52 INFO  lab.web.WriteDeleteApiTest:19 - tryToExchangeOneBookTwoTimesRest test
+2019-03-10 17:27:52 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:27:52 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:27:53 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-10 17:27:54 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-10 17:27:54 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-10 17:27:54 INFO  web.utils.LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@21bcffb5] passed successful
+2019-03-10 17:27:54 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 17:27:54 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:27:54 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:27:54 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 17:27:54 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 17:27:55 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@21bcffb5], Started
+2019-03-10 17:27:55 INFO  lab.web.WriteDeleteApiTest:28 - tryToExchangeOneBookTwoTimesSoap test
+2019-03-10 17:27:55 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:27:55 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 17:28:03 WARN  web.utils.LoggerListener:25 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@21bcffb5] failed in
+2019-03-10 17:28:03 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 17:28:03 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:28:03 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:28:04 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 17:28:04 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 17:28:04 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@5e5792a0
+2019-03-10 17:30:30 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:30:30 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 17:30:30 INFO  lab.web.WriteDeleteApiTest:28 - tryToExchangeOneBookTwoTimesSoap test
+2019-03-10 17:30:30 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:30:30 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 17:30:31 WARN  web.utils.LoggerListener:25 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 17:30:31 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 17:30:31 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:30:31 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:30:32 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 17:30:33 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 17:30:33 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:34:15 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:34:16 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 17:34:16 INFO  lab.web.WriteDeleteApiTest:28 - tryToExchangeOneBookTwoTimesSoap test
+2019-03-10 17:34:16 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:34:16 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 17:34:16 WARN  web.utils.LoggerListener:25 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 17:34:16 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 17:34:16 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:34:16 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:34:18 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 17:34:18 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 17:34:19 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:46:12 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-10 17:46:12 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c], Started
+2019-03-10 17:46:12 INFO  lab.web.WriteDeleteApiTest:28 - tryToExchangeOneBookTwoTimesSoap test
+2019-03-10 17:46:12 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:46:12 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 17:46:13 WARN  web.utils.LoggerListener:25 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c] failed in
+2019-03-10 17:46:13 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 17:46:13 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:46:13 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:46:15 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 17:46:15 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 17:46:16 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-10 17:48:11 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:48:11 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 17:48:12 INFO  lab.web.WriteDeleteApiTest:28 - tryToExchangeOneBookTwoTimesSoap test
+2019-03-10 17:48:12 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:48:12 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 17:48:12 WARN  web.utils.LoggerListener:25 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 17:48:12 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 17:48:12 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:48:12 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:48:14 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 17:48:14 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 17:48:14 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:48:27 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-10 17:48:27 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c], Started
+2019-03-10 17:48:27 INFO  lab.web.WriteDeleteApiTest:28 - tryToExchangeOneBookTwoTimesSoap test
+2019-03-10 17:48:27 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:48:27 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 17:48:28 WARN  web.utils.LoggerListener:25 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c] failed in
+2019-03-10 17:48:28 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 17:48:28 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:48:28 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:48:30 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 17:48:30 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 17:48:31 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-10 17:51:40 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 17:51:40 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 17:51:40 INFO  lab.web.WriteDeleteApiTest:28 - tryToExchangeOneBookTwoTimesSoap test
+2019-03-10 17:51:40 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:51:40 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 17:51:41 WARN  web.utils.LoggerListener:25 - Test : tryToExchangeOneBookTwoTimesSoap , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 17:51:41 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 17:51:41 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 17:51:41 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 17:51:42 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 17:51:43 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 17:51:43 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 18:11:11 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 18:11:11 INFO  web.utils.LoggerListener:13 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 18:11:11 INFO  lab.web.WriteDeleteApiTest:19 - tryToExchangeOneBookTwoTimesRest test
+2019-03-10 18:11:12 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 18:11:12 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 18:11:13 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-10 18:11:14 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-10 18:11:14 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-10 18:11:14 INFO  web.utils.LoggerListener:19 - Test : tryToExchangeOneBookTwoTimesRest , Method : ExchangeApiTest.tryToExchangeOneBookTwoTimesRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] passed successful
+2019-03-10 18:11:14 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 18:11:14 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 18:11:14 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 18:11:16 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 18:11:16 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 18:11:16 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 18:53:28 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 18:53:28 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 18:53:28 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 18:53:28 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 18:53:28 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 18:53:31 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 18:53:31 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 18:53:31 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 18:53:31 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 18:53:32 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 18:53:32 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 18:53:32 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 18:55:36 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 18:55:36 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 18:55:36 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 18:55:36 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 18:55:36 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 18:55:37 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 18:55:37 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 18:55:37 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 18:55:37 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 18:55:38 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 18:55:39 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 18:55:39 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 19:56:09 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 19:56:09 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 19:56:09 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 19:56:09 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 19:56:09 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 19:56:13 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 19:56:13 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 19:56:13 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 19:56:13 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 19:56:14 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 19:56:14 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 19:56:14 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 19:57:33 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 19:57:33 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : ExchangeApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 19:57:33 INFO  lab.web.WriteDeleteApiTest:19 - tryWriteAndDeleteFileRest test
+2019-03-10 19:57:33 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 19:57:33 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 19:57:34 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-10 19:57:35 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-10 19:57:36 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-10 19:57:36 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : ExchangeApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] passed successful
+2019-03-10 19:57:36 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 19:57:36 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 19:57:36 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 19:57:36 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 19:57:36 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 19:57:36 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 19:58:46 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 19:58:46 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 19:58:46 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 19:58:46 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 19:58:46 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 19:58:47 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 19:58:47 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 19:58:47 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 19:58:47 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 19:58:48 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 19:58:49 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 19:58:49 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 20:00:11 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@6f7fd0e6
+2019-03-10 20:00:11 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@6b2fad11], Started
+2019-03-10 20:00:11 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 20:00:11 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:00:11 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 20:00:13 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@6b2fad11] failed in
+2019-03-10 20:00:13 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 20:00:13 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:00:13 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 20:00:14 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 20:00:15 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 20:00:15 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@6f7fd0e6
+2019-03-10 20:03:27 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-10 20:03:27 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c], Started
+2019-03-10 20:03:27 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 20:03:27 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:03:27 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 20:03:29 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c] failed in
+2019-03-10 20:03:29 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 20:03:29 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:03:29 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 20:03:30 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 20:03:31 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 20:03:31 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-10 20:04:18 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 20:04:18 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 20:04:18 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 20:04:18 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:04:18 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 20:04:43 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 20:04:43 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 20:04:43 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:04:43 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 20:04:43 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 20:04:44 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 20:04:44 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 20:07:34 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 20:07:34 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 20:07:34 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 20:07:34 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:07:34 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 20:07:36 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 20:07:36 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 20:07:36 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:07:36 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 20:07:37 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 20:07:38 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 20:07:38 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 20:08:40 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 20:08:40 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 20:08:40 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 20:08:40 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:08:40 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 20:08:43 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 20:08:43 INFO  lab.web.WriteDeleteApiTest:41 - after method
+2019-03-10 20:08:43 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:08:43 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 20:08:43 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 20:08:44 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 20:08:44 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 20:10:24 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 20:10:24 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-10 20:10:24 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 20:10:24 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:10:24 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 20:10:27 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-10 20:10:27 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 20:10:27 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:10:27 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 20:10:28 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 20:10:28 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 20:10:29 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-10 20:13:42 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-10 20:13:42 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c], Started
+2019-03-10 20:13:42 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-10 20:13:42 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:13:42 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-10 20:13:44 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c] failed in
+2019-03-10 20:13:44 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-10 20:13:44 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-10 20:13:44 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-10 20:13:45 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-10 20:13:45 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-10 20:13:46 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-11 10:51:54 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 10:51:54 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-11 10:51:54 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-11 10:51:54 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:51:54 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 10:51:58 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-11 10:51:58 INFO  lab.web.WriteDeleteApiTest:42 - after method
+2019-03-11 10:51:58 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:51:58 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 10:51:59 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 10:51:59 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 10:52:00 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 10:53:07 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 10:53:07 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-11 10:53:07 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-11 10:53:07 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:53:07 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 10:53:09 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-11 10:53:09 INFO  lab.web.WriteDeleteApiTest:42 - after method
+2019-03-11 10:53:09 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:53:09 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 10:53:10 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 10:53:10 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 10:53:10 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 10:54:33 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 10:54:33 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : ExchangeApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-11 10:54:33 INFO  lab.web.WriteDeleteApiTest:19 - tryWriteAndDeleteFileRest test
+2019-03-11 10:54:33 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:54:33 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 10:54:35 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 10:54:35 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 10:54:36 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 10:54:36 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : ExchangeApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] passed successful
+2019-03-11 10:54:36 INFO  lab.web.WriteDeleteApiTest:42 - after method
+2019-03-11 10:54:36 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:54:36 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 10:54:36 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 10:54:36 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 10:54:37 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 10:56:28 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 10:56:28 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-11 10:56:28 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-11 10:56:28 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:56:28 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 10:56:30 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-11 10:56:30 INFO  lab.web.WriteDeleteApiTest:43 - after method
+2019-03-11 10:56:30 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:56:30 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 10:56:31 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 10:56:31 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 10:56:32 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 10:57:32 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 10:57:32 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-11 10:57:32 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-11 10:57:32 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:57:32 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 10:57:34 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-11 10:57:34 INFO  lab.web.WriteDeleteApiTest:43 - after method
+2019-03-11 10:57:34 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 10:57:34 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 10:57:35 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 10:57:35 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 10:57:35 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 11:05:39 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 11:05:39 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-11 11:05:39 INFO  lab.web.WriteDeleteApiTest:28 - tryWriteAndDeleteFileSoap test
+2019-03-11 11:05:39 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:05:39 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 11:05:41 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] failed in
+2019-03-11 11:05:41 INFO  lab.web.WriteDeleteApiTest:37 - after method
+2019-03-11 11:05:41 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:05:41 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:05:43 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 11:05:44 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 11:05:44 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 11:20:22 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 11:20:22 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f], Started
+2019-03-11 11:20:22 INFO  lab.web.WriteDeleteApiTest:31 - tryWriteAndDeleteFileSoap test
+2019-03-11 11:20:22 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:20:22 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 11:20:24 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@79b4d0f] passed successful
+2019-03-11 11:20:24 INFO  lab.web.WriteDeleteApiTest:45 - after method
+2019-03-11 11:20:24 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:20:24 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:20:25 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 11:20:26 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 11:20:26 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 11:21:04 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-11 11:21:04 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c], Started
+2019-03-11 11:21:04 INFO  lab.web.WriteDeleteApiTest:31 - tryWriteAndDeleteFileSoap test
+2019-03-11 11:21:04 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:21:04 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 11:21:05 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@7a5d012c] passed successful
+2019-03-11 11:21:05 INFO  lab.web.WriteDeleteApiTest:45 - after method
+2019-03-11 11:21:05 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:21:05 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:21:06 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 11:21:07 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 11:21:07 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@ae45eb6
+2019-03-11 11:21:34 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@3532ec19
+2019-03-11 11:21:34 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : ExchangeApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@668bc3d5], Started
+2019-03-11 11:21:34 INFO  lab.web.WriteDeleteApiTest:22 - tryWriteAndDeleteFileRest test
+2019-03-11 11:21:34 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:21:34 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:21:35 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 11:21:35 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 11:21:36 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 11:21:36 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : ExchangeApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@668bc3d5] passed successful
+2019-03-11 11:21:36 INFO  lab.web.WriteDeleteApiTest:45 - after method
+2019-03-11 11:21:36 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:21:36 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:21:36 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 11:21:36 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 11:21:36 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@668bc3d5], Started
+2019-03-11 11:21:36 INFO  lab.web.WriteDeleteApiTest:31 - tryWriteAndDeleteFileSoap test
+2019-03-11 11:21:36 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:21:36 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 11:21:37 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : ExchangeApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@668bc3d5] failed in
+2019-03-11 11:21:37 INFO  lab.web.WriteDeleteApiTest:45 - after method
+2019-03-11 11:21:37 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:21:37 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:21:38 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 11:21:38 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 11:21:38 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@3532ec19
+2019-03-11 11:26:50 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@68c4039c
+2019-03-11 11:26:50 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@3cda1055], Started
+2019-03-11 11:26:50 INFO  lab.web.WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 11:26:50 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:26:50 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:26:51 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 11:26:52 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 11:26:53 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 11:26:53 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@3cda1055] passed successful
+2019-03-11 11:26:53 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 11:26:53 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:26:53 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:26:53 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 11:26:53 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 11:26:53 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@3cda1055], Started
+2019-03-11 11:26:53 INFO  lab.web.WriteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 11:26:53 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:26:53 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 11:26:55 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@3cda1055] failed in
+2019-03-11 11:26:55 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 11:26:55 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:26:55 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:26:56 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 11:26:56 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 11:26:56 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@68c4039c
+2019-03-11 11:27:56 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 11:27:56 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f], Started
+2019-03-11 11:27:56 INFO  lab.web.WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 11:27:56 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:27:56 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:27:58 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 11:27:58 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 11:27:59 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 11:27:59 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f] passed successful
+2019-03-11 11:27:59 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 11:27:59 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 11:27:59 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 11:27:59 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 11:27:59 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 11:27:59 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 12:52:32 INFO  web.utils.LoggerListener:41 - Starting tests : Test, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@78c03f1f
+2019-03-11 12:52:32 INFO  web.utils.LoggerListener:41 - Starting tests : Test, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@78c03f1f
+2019-03-11 12:52:32 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+2019-03-11 12:52:32 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+2019-03-11 12:52:32 INFO  lab.web.WriteDeleteApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 12:52:32 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:32 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:33 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 12:52:34 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 12:52:34 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 12:52:34 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+2019-03-11 12:52:34 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+2019-03-11 12:52:34 INFO  lab.web.WriteDeleteApiTest:43 - after method
+2019-03-11 12:52:34 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:34 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:35 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:52:35 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:52:35 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+2019-03-11 12:52:35 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+2019-03-11 12:52:35 INFO  lab.web.WriteDeleteApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 12:52:35 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:35 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 12:52:43 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] failed in
+2019-03-11 12:52:43 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] failed in
+2019-03-11 12:52:43 INFO  lab.web.WriteDeleteApiTest:43 - after method
+2019-03-11 12:52:43 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:43 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:43 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:52:43 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:52:43 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+2019-03-11 12:52:43 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+2019-03-11 12:52:43 INFO  lab.web.WriteDeleteFiveTimesApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 12:52:43 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:43 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:43 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 12:52:43 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 12:52:43 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 12:52:43 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+2019-03-11 12:52:43 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+2019-03-11 12:52:43 INFO  lab.web.WriteDeleteFiveTimesApiTest:59 - after method
+2019-03-11 12:52:43 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:43 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:44 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:52:44 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:52:44 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+2019-03-11 12:52:44 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+2019-03-11 12:52:44 INFO  lab.web.WriteDeleteFiveTimesApiTest:37 - tryWriteAndDeleteFileSoap test
+2019-03-11 12:52:44 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:44 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 12:52:44 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] failed in
+2019-03-11 12:52:44 WARN  web.utils.LoggerListener:25 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] failed in
+2019-03-11 12:52:44 INFO  lab.web.WriteDeleteFiveTimesApiTest:59 - after method
+2019-03-11 12:52:44 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:44 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:44 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:52:44 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:52:44 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 12:52:44 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 12:52:44 INFO  lab.web.WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 12:52:44 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:44 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:45 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 12:52:45 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 12:52:57 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 12:52:57 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] passed successful
+2019-03-11 12:52:57 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] passed successful
+2019-03-11 12:52:57 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 12:52:57 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:57 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:57 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:52:57 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:52:57 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 12:52:57 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 12:52:57 INFO  lab.web.WriteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 12:52:57 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:57 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 12:52:58 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] failed in
+2019-03-11 12:52:58 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] failed in
+2019-03-11 12:52:58 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 12:52:58 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:58 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:58 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:52:58 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:52:58 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 12:52:58 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 12:52:58 INFO  lab.web.DownloadSameFileTwiceApiTest:21 - tryWriteAndDeleteFileRest test
+2019-03-11 12:52:58 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:52:58 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:52:58 INFO  web.rest.FileRESTServiceClient:76 - downloadFile method
+2019-03-11 12:52:58 INFO  web.rest.FileRESTServiceClient:81 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/download?fileName=New2&filePath=src/test/resources
+2019-03-11 12:53:03 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 12:53:03 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] passed successful
+2019-03-11 12:53:03 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] passed successful
+2019-03-11 12:53:03 INFO  lab.web.DownloadSameFileTwiceApiTest:44 - after method
+2019-03-11 12:53:03 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:53:03 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:53:03 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:53:03 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:53:03 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 12:53:03 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 12:53:03 INFO  lab.web.DownloadSameFileTwiceApiTest:30 - tryWriteAndDeleteFileSoap test
+2019-03-11 12:53:03 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:53:03 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 12:53:04 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] failed in
+2019-03-11 12:53:04 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] failed in
+2019-03-11 12:53:04 INFO  lab.web.DownloadSameFileTwiceApiTest:44 - after method
+2019-03-11 12:53:04 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:53:04 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:53:04 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:53:04 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:53:05 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 12:53:05 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 12:53:05 INFO  lab.web.DeleteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 12:53:05 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:53:05 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:53:05 INFO  web.rest.FileRESTServiceClient:125 - deleteFile method
+2019-03-11 12:53:05 INFO  web.rest.FileRESTServiceClient:130 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/delete/New2
+2019-03-11 12:53:05 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 12:53:05 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] passed successful
+2019-03-11 12:53:05 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] passed successful
+2019-03-11 12:53:05 INFO  lab.web.DeleteSameFileTwiceApiTest:43 - after method
+2019-03-11 12:53:05 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:53:05 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:53:05 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:53:05 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:53:05 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 12:53:05 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 12:53:05 INFO  lab.web.DeleteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 12:53:05 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:53:05 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 12:53:05 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] failed in
+2019-03-11 12:53:05 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] failed in
+2019-03-11 12:53:05 INFO  lab.web.DeleteSameFileTwiceApiTest:43 - after method
+2019-03-11 12:53:05 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 12:53:05 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 12:53:06 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 12:53:06 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 12:53:06 INFO  web.utils.LoggerListener:47 - Finish tests : Test, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@78c03f1f
+2019-03-11 12:53:06 INFO  web.utils.LoggerListener:47 - Finish tests : Test, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@78c03f1f
+2019-03-11 13:41:03 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 13:41:03 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f], Started
+2019-03-11 13:41:03 INFO  lab.web.WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 13:41:03 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:41:03 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:41:04 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 13:41:05 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 13:41:06 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 13:41:06 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f] passed successful
+2019-03-11 13:41:06 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 13:41:06 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:41:06 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:41:06 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 13:41:06 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 13:41:06 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 13:45:26 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 13:45:26 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f], Started
+2019-03-11 13:45:26 INFO  lab.web.WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 13:45:26 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:45:26 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:45:27 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 13:45:28 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 13:45:28 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 13:45:28 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f] passed successful
+2019-03-11 13:45:28 INFO  lab.web.WriteSameFileTwiceApiTest:45 - after method
+2019-03-11 13:45:28 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:45:28 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:45:29 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 13:45:29 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 13:45:29 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 13:46:55 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 13:46:55 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f], Started
+2019-03-11 13:46:55 INFO  lab.web.WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 13:46:55 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:46:55 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:46:56 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 13:46:57 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 13:46:57 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 13:46:57 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f] passed successful
+2019-03-11 13:46:57 INFO  lab.web.WriteSameFileTwiceApiTest:45 - after method
+2019-03-11 13:46:57 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:46:57 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:46:57 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 13:46:57 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 13:46:58 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 13:50:43 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 13:50:43 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f], Started
+2019-03-11 13:50:43 INFO  lab.web.WriteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 13:50:43 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:50:43 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 13:50:48 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@79b4d0f] passed successful
+2019-03-11 13:50:48 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 13:50:48 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:50:48 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:50:49 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 13:50:49 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 13:50:49 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@27efef64
+2019-03-11 13:51:28 INFO  web.utils.LoggerListener:41 - Starting tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@3532ec19
+2019-03-11 13:51:28 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@668bc3d5], Started
+2019-03-11 13:51:28 INFO  lab.web.WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 13:51:28 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:51:28 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:51:30 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 13:51:30 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 13:51:31 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 13:51:31 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@668bc3d5] passed successful
+2019-03-11 13:51:31 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 13:51:31 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:51:31 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:51:31 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 13:51:31 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 13:51:31 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@668bc3d5], Started
+2019-03-11 13:51:31 INFO  lab.web.WriteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 13:51:31 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:51:31 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 13:51:32 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@668bc3d5] passed successful
+2019-03-11 13:51:32 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 13:51:32 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 13:51:32 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 13:51:33 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 13:51:33 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 13:51:33 INFO  web.utils.LoggerListener:47 - Finish tests : MykhailoKozakFileStorageServiceClient, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\test-output\Default Suite, Test Suite : org.testng.SuiteRunner@3532ec19
+2019-03-11 15:50:22 INFO  web.utils.LoggerListener:41 - Starting tests : Test, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@78c03f1f
+2019-03-11 15:50:22 INFO  web.utils.LoggerListener:41 - Starting tests : Test, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@78c03f1f
+2019-03-11 15:50:22 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+2019-03-11 15:50:22 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+2019-03-11 15:50:22 INFO  lab.web.WriteDeleteApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 15:50:22 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:22 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:23 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 15:50:24 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 15:50:38 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 15:50:38 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+2019-03-11 15:50:38 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+2019-03-11 15:50:38 INFO  lab.web.WriteDeleteApiTest:43 - after method
+2019-03-11 15:50:38 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:38 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:38 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:38 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:39 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+2019-03-11 15:50:39 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+2019-03-11 15:50:39 INFO  lab.web.WriteDeleteApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 15:50:39 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:39 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 15:50:52 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+2019-03-11 15:50:52 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+2019-03-11 15:50:52 INFO  lab.web.WriteDeleteApiTest:43 - after method
+2019-03-11 15:50:52 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:52 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:53 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:53 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:53 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+2019-03-11 15:50:53 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+2019-03-11 15:50:53 INFO  lab.web.WriteDeleteFiveTimesApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 15:50:53 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:53 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:53 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 15:50:53 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 15:50:53 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 15:50:53 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+2019-03-11 15:50:53 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+2019-03-11 15:50:53 INFO  lab.web.WriteDeleteFiveTimesApiTest:59 - after method
+2019-03-11 15:50:53 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:53 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:54 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:54 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:54 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+2019-03-11 15:50:54 INFO  web.utils.LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+2019-03-11 15:50:54 INFO  lab.web.WriteDeleteFiveTimesApiTest:37 - tryWriteAndDeleteFileSoap test
+2019-03-11 15:50:54 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:54 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 15:50:54 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+2019-03-11 15:50:54 INFO  web.utils.LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+2019-03-11 15:50:54 INFO  lab.web.WriteDeleteFiveTimesApiTest:59 - after method
+2019-03-11 15:50:54 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:54 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:54 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:54 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:54 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 15:50:54 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 15:50:54 INFO  lab.web.WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 15:50:54 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:54 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:54 INFO  web.rest.FileRESTServiceClient:52 - writeFile method
+2019-03-11 15:50:54 INFO  web.rest.FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+2019-03-11 15:50:55 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 15:50:55 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] passed successful
+2019-03-11 15:50:55 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] passed successful
+2019-03-11 15:50:55 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 15:50:55 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:55 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:55 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:55 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:55 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 15:50:55 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 15:50:55 INFO  lab.web.WriteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 15:50:55 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:55 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 15:50:57 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] failed in
+2019-03-11 15:50:57 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] failed in
+2019-03-11 15:50:57 INFO  lab.web.WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 15:50:57 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:57 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:58 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:58 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:58 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 15:50:58 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 15:50:58 INFO  lab.web.DownloadSameFileTwiceApiTest:21 - tryWriteAndDeleteFileRest test
+2019-03-11 15:50:58 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:58 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:58 INFO  web.rest.FileRESTServiceClient:76 - downloadFile method
+2019-03-11 15:50:58 INFO  web.rest.FileRESTServiceClient:81 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/download?fileName=New2&filePath=src/test
+2019-03-11 15:50:58 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 15:50:58 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] passed successful
+2019-03-11 15:50:58 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] passed successful
+2019-03-11 15:50:58 INFO  lab.web.DownloadSameFileTwiceApiTest:44 - after method
+2019-03-11 15:50:58 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:58 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:58 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:58 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:58 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 15:50:58 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 15:50:58 INFO  lab.web.DownloadSameFileTwiceApiTest:30 - tryWriteAndDeleteFileSoap test
+2019-03-11 15:50:58 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:58 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 15:50:59 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] failed in
+2019-03-11 15:50:59 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] failed in
+2019-03-11 15:50:59 INFO  lab.web.DownloadSameFileTwiceApiTest:44 - after method
+2019-03-11 15:50:59 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:59 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:59 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:59 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:59 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 15:50:59 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 15:50:59 INFO  lab.web.DeleteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+2019-03-11 15:50:59 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:59 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:59 INFO  web.rest.FileRESTServiceClient:125 - deleteFile method
+2019-03-11 15:50:59 INFO  web.rest.FileRESTServiceClient:130 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/delete/New2
+2019-03-11 15:50:59 INFO  web.rest.FileRESTServiceClient:36 - buildException
+2019-03-11 15:50:59 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] passed successful
+2019-03-11 15:50:59 INFO  web.utils.LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] passed successful
+2019-03-11 15:50:59 INFO  lab.web.DeleteSameFileTwiceApiTest:43 - after method
+2019-03-11 15:50:59 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:59 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:51:00 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:51:00 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:51:00 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 15:51:00 INFO  web.utils.LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 15:51:00 INFO  lab.web.DeleteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 15:51:00 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:51:00 INFO  lab.web.ServiceFactory:20 - Creating Soap file service client
+2019-03-11 15:51:00 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] failed in
+2019-03-11 15:51:00 WARN  web.utils.LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] failed in
+2019-03-11 15:51:00 INFO  lab.web.DeleteSameFileTwiceApiTest:43 - after method
+2019-03-11 15:51:00 INFO  lab.web.ServiceFactory:13 - getFileService factory method
+2019-03-11 15:51:00 INFO  lab.web.ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:51:00 INFO  web.rest.FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:51:00 INFO  web.rest.FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:51:00 INFO  web.utils.LoggerListener:47 - Finish tests : Test, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@78c03f1f
+2019-03-11 15:51:01 INFO  web.utils.LoggerListener:47 - Finish tests : Test, Output directory : D:\IdeaProjects\MykhailoKozakFileStorageServiceClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@78c03f1f

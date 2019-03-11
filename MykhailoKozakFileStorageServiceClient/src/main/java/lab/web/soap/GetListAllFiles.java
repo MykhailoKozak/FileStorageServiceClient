@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getListAllFiles")
+@XmlType(name = "getListAllFiles1")
 public class GetListAllFiles {
 
 

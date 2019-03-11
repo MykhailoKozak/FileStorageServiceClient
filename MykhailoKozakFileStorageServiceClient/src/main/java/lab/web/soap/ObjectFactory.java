@@ -4,6 +4,7 @@ package lab.web.soap;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;
 import javax.xml.bind.annotation.XmlRegistry;
+import javax.xml.bind.annotation.XmlType;
 import javax.xml.namespace.QName;
 
 

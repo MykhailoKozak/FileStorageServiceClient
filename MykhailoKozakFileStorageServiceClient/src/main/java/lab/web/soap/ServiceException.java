@@ -22,12 +22,11 @@ public class ServiceException
     private LibraryFault faultInfo;
 
     /**
-     * 
-     * @param faultInfo
-     * @param message
+     *  @param faultInfo
+     *
      */
-    public ServiceException(String message, LibraryFault faultInfo) {
-        super(message);
+    public ServiceException(LibraryFault faultInfo) {
+        //super(message);
         this.faultInfo = faultInfo;
     }
 
@@ -45,7 +44,7 @@ public class ServiceException
     /**
      * 
      * @return
-     *     returns fault bean: lab.web.soap.LibraryFault
+     *     returns fault bean: LibraryFault
      */
     public LibraryFault getFaultInfo() {
         return faultInfo;

@@ -1,0 +1,880 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 11 15:50:22 EET 2019</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38318 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()'><b>tryWriteFileTwiceSoap</b><br>Test class: lab.web.WriteSameFileTwiceApiTest<br/>
+<a href="#Output-1033856359" onClick='toggleBox("Output-1033856359", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1033856359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1033856359">
+2019-03-11 15:50:55 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+
+<br/>
+2019-03-11 15:50:55 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+
+<br/>
+2019-03-11 15:50:55 INFO  WriteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+
+<br/>
+2019-03-11 15:50:55 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:50:55 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>
+2019-03-11 15:50:57 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] failed in
+
+<br/>
+2019-03-11 15:50:57 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] failed in
+
+<br/>
+</div>
+</td>
+<td><div><pre>javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:138)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy47.writeFile(Unknown Source)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap(WriteSameFileTwiceApiTest.java:33)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:134)
+	... 36 more
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1033856359", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1033856359'><pre>javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:138)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy47.writeFile(Unknown Source)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap(WriteSameFileTwiceApiTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:134)
+	... 36 more
+</pre></div></td>
+<td>2</td>
+<td>lab.web.WriteSameFileTwiceApiTest@25bbe1b6</td></tr>
+<tr>
+<td title='lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()'><b>tryWriteFileTwiceSoap</b><br>Test class: lab.web.DownloadSameFileTwiceApiTest<br/>
+<a href="#Output-80026551" onClick='toggleBox("Output-80026551", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-80026551" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-80026551">
+2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+
+<br/>
+2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+
+<br/>
+2019-03-11 15:50:58 INFO  DownloadSameFileTwiceApiTest:30 - tryWriteAndDeleteFileSoap test
+
+<br/>
+2019-03-11 15:50:58 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:50:58 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>
+2019-03-11 15:50:59 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] failed in
+
+<br/>
+2019-03-11 15:50:59 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] failed in
+
+<br/>
+</div>
+</td>
+<td><div><pre>javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:138)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy47.downloadFile(Unknown Source)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap(DownloadSameFileTwiceApiTest.java:34)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:134)
+	... 36 more
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace80026551", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace80026551'><pre>javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:138)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy47.downloadFile(Unknown Source)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap(DownloadSameFileTwiceApiTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:134)
+	... 36 more
+</pre></div></td>
+<td>0</td>
+<td>lab.web.DownloadSameFileTwiceApiTest@5702b3b1</td></tr>
+<tr>
+<td title='lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()'><b>tryWriteFileTwiceSoap</b><br>Test class: lab.web.DeleteSameFileTwiceApiTest<br/>
+<a href="#Output-1228963996" onClick='toggleBox("Output-1228963996", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1228963996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1228963996">
+2019-03-11 15:51:00 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+
+<br/>
+2019-03-11 15:51:00 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+
+<br/>
+2019-03-11 15:51:00 INFO  DeleteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+
+<br/>
+2019-03-11 15:51:00 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:51:00 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>
+2019-03-11 15:51:00 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] failed in
+
+<br/>
+2019-03-11 15:51:00 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] failed in
+
+<br/>
+</div>
+</td>
+<td><div><pre>javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:138)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy47.deleteFile(Unknown Source)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap(DeleteSameFileTwiceApiTest.java:33)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:134)
+	... 36 more
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1228963996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1228963996'><pre>javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:138)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy47.deleteFile(Unknown Source)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap(DeleteSameFileTwiceApiTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.getConstructor(Class.java:1825)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:134)
+	... 36 more
+</pre></div></td>
+<td>0</td>
+<td>lab.web.DeleteSameFileTwiceApiTest@69ea3742</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='lab.web.WriteDeleteApiTest.tryWriteAndDeleteFileRest()'><b>tryWriteAndDeleteFileRest</b><br>Test class: lab.web.WriteDeleteApiTest<br/>
+<a href="#Output-520016214" onClick='toggleBox("Output-520016214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-520016214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-520016214">
+2019-03-11 15:50:22 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+
+<br/>
+2019-03-11 15:50:22 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+
+<br/>
+2019-03-11 15:50:22 INFO  WriteDeleteApiTest:20 - tryWriteAndDeleteFileRest test
+
+<br/>
+2019-03-11 15:50:22 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:50:22 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>
+2019-03-11 15:50:23 INFO  FileRESTServiceClient:52 - writeFile method
+
+<br/>
+2019-03-11 15:50:24 INFO  FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+
+<br/>
+2019-03-11 15:50:38 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>
+2019-03-11 15:50:38 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+
+<br/>
+2019-03-11 15:50:38 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+
+<br/>
+</div>
+</td>
+<td><div><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.writeFile(FileRESTServiceClient.java:69)
+	at lab.web.WriteDeleteApiTest.tryWriteAndDeleteFileRest(WriteDeleteApiTest.java:23)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace520016214", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace520016214'><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.writeFile(FileRESTServiceClient.java:69)
+	at lab.web.WriteDeleteApiTest.tryWriteAndDeleteFileRest(WriteDeleteApiTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>15</td>
+<td>lab.web.WriteDeleteApiTest@1ed4004b</td></tr>
+<tr>
+<td title='lab.web.WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()'><b>tryWriteAndDeleteFileRest</b><br>Test class: lab.web.WriteDeleteFiveTimesApiTest<br/>
+<a href="#Output-914942811" onClick='toggleBox("Output-914942811", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-914942811" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-914942811">
+2019-03-11 15:50:53 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+
+<br/>
+2019-03-11 15:50:53 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+
+<br/>
+2019-03-11 15:50:53 INFO  WriteDeleteFiveTimesApiTest:20 - tryWriteAndDeleteFileRest test
+
+<br/>
+2019-03-11 15:50:53 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:50:53 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>
+2019-03-11 15:50:53 INFO  FileRESTServiceClient:52 - writeFile method
+
+<br/>
+2019-03-11 15:50:53 INFO  FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+
+<br/>
+2019-03-11 15:50:53 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>
+2019-03-11 15:50:53 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+
+<br/>
+2019-03-11 15:50:53 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileRest , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+
+<br/>
+</div>
+</td>
+<td><div><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.writeFile(FileRESTServiceClient.java:69)
+	at lab.web.WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest(WriteDeleteFiveTimesApiTest.java:23)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace914942811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace914942811'><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.writeFile(FileRESTServiceClient.java:69)
+	at lab.web.WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileRest(WriteDeleteFiveTimesApiTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>lab.web.WriteDeleteFiveTimesApiTest@ff5b51f</td></tr>
+<tr>
+<td title='lab.web.WriteDeleteApiTest.tryWriteAndDeleteFileSoap()'><b>tryWriteAndDeleteFileSoap</b><br>Test class: lab.web.WriteDeleteApiTest<br/>
+<a href="#Output-1006227006" onClick='toggleBox("Output-1006227006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1006227006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1006227006">
+2019-03-11 15:50:39 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+
+<br/>
+2019-03-11 15:50:39 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b], Started
+
+<br/>
+2019-03-11 15:50:39 INFO  WriteDeleteApiTest:29 - tryWriteAndDeleteFileSoap test
+
+<br/>
+2019-03-11 15:50:39 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:50:39 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>
+2019-03-11 15:50:52 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+
+<br/>
+2019-03-11 15:50:52 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteApiTest@1ed4004b] passed successful
+
+<br/>
+</div>
+</td>
+<td><div><pre>lab.web.soap.ServiceException
+	at lab.web.WriteDeleteApiTest.tryWriteAndDeleteFileSoap(WriteDeleteApiTest.java:38)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1006227006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1006227006'><pre>lab.web.soap.ServiceException
+	at lab.web.WriteDeleteApiTest.tryWriteAndDeleteFileSoap(WriteDeleteApiTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>13</td>
+<td>lab.web.WriteDeleteApiTest@1ed4004b</td></tr>
+<tr>
+<td title='lab.web.WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()'><b>tryWriteAndDeleteFileSoap</b><br>Test class: lab.web.WriteDeleteFiveTimesApiTest<br/>
+<a href="#Output-462773420" onClick='toggleBox("Output-462773420", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-462773420" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-462773420">
+2019-03-11 15:50:54 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+
+<br/>
+2019-03-11 15:50:54 INFO  LoggerListener:13 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f], Started
+
+<br/>
+2019-03-11 15:50:54 INFO  WriteDeleteFiveTimesApiTest:37 - tryWriteAndDeleteFileSoap test
+
+<br/>
+2019-03-11 15:50:54 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:50:54 INFO  ServiceFactory:20 - Creating Soap file service client
+
+<br/>
+2019-03-11 15:50:54 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+
+<br/>
+2019-03-11 15:50:54 INFO  LoggerListener:19 - Test : tryWriteAndDeleteFileSoap , Method : WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap()[pri:0, instance:lab.web.WriteDeleteFiveTimesApiTest@ff5b51f] passed successful
+
+<br/>
+</div>
+</td>
+<td><div><pre>lab.web.soap.ServiceException
+	at lab.web.WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap(WriteDeleteFiveTimesApiTest.java:54)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace462773420", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace462773420'><pre>lab.web.soap.ServiceException
+	at lab.web.WriteDeleteFiveTimesApiTest.tryWriteAndDeleteFileSoap(WriteDeleteFiveTimesApiTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>lab.web.WriteDeleteFiveTimesApiTest@ff5b51f</td></tr>
+<tr>
+<td title='lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()'><b>tryWriteFileTwiceRest</b><br>Test class: lab.web.WriteSameFileTwiceApiTest<br/>
+<a href="#Output-1404932042" onClick='toggleBox("Output-1404932042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1404932042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1404932042">
+2019-03-11 15:50:54 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+
+<br/>
+2019-03-11 15:50:54 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+
+<br/>
+2019-03-11 15:50:54 INFO  WriteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+
+<br/>
+2019-03-11 15:50:54 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:50:54 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>
+2019-03-11 15:50:54 INFO  FileRESTServiceClient:52 - writeFile method
+
+<br/>
+2019-03-11 15:50:54 INFO  FileRESTServiceClient:56 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/write?fileName=New2
+
+<br/>
+2019-03-11 15:50:55 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>
+2019-03-11 15:50:55 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] passed successful
+
+<br/>
+2019-03-11 15:50:55 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] passed successful
+
+<br/>
+</div>
+</td>
+<td><div><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.writeFile(FileRESTServiceClient.java:69)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceRest(WriteSameFileTwiceApiTest.java:23)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1404932042", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1404932042'><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.writeFile(FileRESTServiceClient.java:69)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceRest(WriteSameFileTwiceApiTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>lab.web.WriteSameFileTwiceApiTest@25bbe1b6</td></tr>
+<tr>
+<td title='lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()'><b>tryWriteFileTwiceRest</b><br>Test class: lab.web.DownloadSameFileTwiceApiTest<br/>
+<a href="#Output-406749219" onClick='toggleBox("Output-406749219", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-406749219" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-406749219">
+2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+
+<br/>
+2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+
+<br/>
+2019-03-11 15:50:58 INFO  DownloadSameFileTwiceApiTest:21 - tryWriteAndDeleteFileRest test
+
+<br/>
+2019-03-11 15:50:58 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:50:58 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>
+2019-03-11 15:50:58 INFO  FileRESTServiceClient:76 - downloadFile method
+
+<br/>
+2019-03-11 15:50:58 INFO  FileRESTServiceClient:81 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/download?fileName=New2&filePath=src/test
+
+<br/>
+2019-03-11 15:50:58 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>
+2019-03-11 15:50:58 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] passed successful
+
+<br/>
+2019-03-11 15:50:58 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] passed successful
+
+<br/>
+</div>
+</td>
+<td><div><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.downloadFile(FileRESTServiceClient.java:93)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest(DownloadSameFileTwiceApiTest.java:24)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace406749219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace406749219'><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.downloadFile(FileRESTServiceClient.java:93)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest(DownloadSameFileTwiceApiTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>lab.web.DownloadSameFileTwiceApiTest@5702b3b1</td></tr>
+<tr>
+<td title='lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()'><b>tryWriteFileTwiceRest</b><br>Test class: lab.web.DeleteSameFileTwiceApiTest<br/>
+<a href="#Output-1586470445" onClick='toggleBox("Output-1586470445", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1586470445" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1586470445">
+2019-03-11 15:50:59 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+
+<br/>
+2019-03-11 15:50:59 INFO  LoggerListener:13 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+
+<br/>
+2019-03-11 15:50:59 INFO  DeleteSameFileTwiceApiTest:20 - tryWriteAndDeleteFileRest test
+
+<br/>
+2019-03-11 15:50:59 INFO  ServiceFactory:13 - getFileService factory method
+
+<br/>
+2019-03-11 15:50:59 INFO  ServiceFactory:17 - Creating Rest file service client
+
+<br/>
+2019-03-11 15:50:59 INFO  FileRESTServiceClient:125 - deleteFile method
+
+<br/>
+2019-03-11 15:50:59 INFO  FileRESTServiceClient:130 - path:http://localhost:8080/MykhailoKozakFileStorageService/fileREST/delete/New2
+
+<br/>
+2019-03-11 15:50:59 INFO  FileRESTServiceClient:36 - buildException
+
+<br/>
+2019-03-11 15:50:59 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] passed successful
+
+<br/>
+2019-03-11 15:50:59 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] passed successful
+
+<br/>
+</div>
+</td>
+<td><div><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.deleteFile(FileRESTServiceClient.java:138)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest(DeleteSameFileTwiceApiTest.java:23)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1586470445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1586470445'><pre>lab.web.soap.ServiceException
+	at lab.web.rest.FileRESTServiceClient.buildException(FileRESTServiceClient.java:45)
+	at lab.web.rest.FileRESTServiceClient.deleteFile(FileRESTServiceClient.java:138)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest(DeleteSameFileTwiceApiTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>lab.web.DeleteSameFileTwiceApiTest@69ea3742</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 42.178 s <<< FAILURE! - in TestSuite
+tryWriteFileTwiceSoap(lab.web.WriteSameFileTwiceApiTest)  Time elapsed: 2.047 s  <<< FAILURE!
+javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap(WriteSameFileTwiceApiTest.java:33)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap(WriteSameFileTwiceApiTest.java:33)
+
+tryWriteFileTwiceSoap(lab.web.DownloadSameFileTwiceApiTest)  Time elapsed: 0.037 s  <<< FAILURE!
+javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap(DownloadSameFileTwiceApiTest.java:34)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap(DownloadSameFileTwiceApiTest.java:34)
+
+tryWriteFileTwiceSoap(lab.web.DeleteSameFileTwiceApiTest)  Time elapsed: 0.052 s  <<< FAILURE!
+javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap(DeleteSameFileTwiceApiTest.java:33)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap(DeleteSameFileTwiceApiTest.java:33)
+

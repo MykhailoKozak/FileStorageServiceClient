@@ -26,7 +26,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "deleteFile", propOrder = {
+@XmlType(name = "deleteFile1", propOrder = {
     "arg0"
 })
 public class DeleteFile {

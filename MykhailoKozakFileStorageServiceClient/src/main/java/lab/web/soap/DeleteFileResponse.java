@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "deleteFileResponse", propOrder = {
+@XmlType(name = "deleteFileResponse1", propOrder = {
     "_return"
 })
 public class DeleteFileResponse {

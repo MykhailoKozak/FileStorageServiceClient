@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="42.178" tests="10" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\IdeaProjects\MykhailoKozakFileStorageServiceClient"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\IdeaProjects\MykhailoKozakFileStorageServiceClient"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mykhailo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\program files (x86)\skype\Phone\;C:\Program Files\Git\cmd;C:\altera\quartus41\bin;C:\altera\quartus41\eda\sim_lib\excalibur\swift\lib\pcnt.lib;C:\altera\quartus41\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_201;C:\Program Files\apache-maven-3.6.0\bin;C:\Program Files\gradle-5.2.1\bin;C:\Users\Mykhailo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mykhailo\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Mykhailo"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Mykhailo"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher tomcat:run-war"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="uk"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="tryWriteAndDeleteFileRest" classname="lab.web.WriteDeleteApiTest" time="16.216"/>
+  <testcase name="tryWriteAndDeleteFileSoap" classname="lab.web.WriteDeleteApiTest" time="13.603"/>
+  <testcase name="tryWriteAndDeleteFileRest" classname="lab.web.WriteDeleteFiveTimesApiTest" time="0.253"/>
+  <testcase name="tryWriteAndDeleteFileSoap" classname="lab.web.WriteDeleteFiveTimesApiTest" time="0.161"/>
+  <testcase name="tryWriteFileTwiceRest" classname="lab.web.WriteSameFileTwiceApiTest" time="0.445"/>
+  <testcase name="tryWriteFileTwiceSoap" classname="lab.web.WriteSameFileTwiceApiTest" time="2.047">
+    <failure message="java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)" type="javax.xml.ws.WebServiceException"><![CDATA[javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap(WriteSameFileTwiceApiTest.java:33)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap(WriteSameFileTwiceApiTest.java:33)
+]]></failure>
+    <system-out><![CDATA[2019-03-11 15:50:55 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] passed successful
+2019-03-11 15:50:55 INFO  WriteSameFileTwiceApiTest:43 - after method
+2019-03-11 15:50:55 INFO  ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:55 INFO  ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:55 INFO  FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:55 INFO  FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:55 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 15:50:55 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6], Started
+2019-03-11 15:50:55 INFO  WriteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 15:50:55 INFO  ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:55 INFO  ServiceFactory:20 - Creating Soap file service client
+2019-03-11 15:50:57 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : WriteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.WriteSameFileTwiceApiTest@25bbe1b6] failed in
+]]></system-out>
+    <system-err><![CDATA[org.codehaus.jackson.JsonParseException: Unexpected character ('s' (code 115)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: java.io.StringReader@119020fb; line: 1, column: 3]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:385)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:306)
+	at org.codehaus.jackson.impl.ReaderBasedParser._handleUnexpectedValue(ReaderBasedParser.java:1192)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:479)
+	at org.codehaus.jackson.map.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:164)
+	at org.codehaus.jackson.map.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:146)
+	at org.codehaus.jackson.map.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:18)
+	at org.codehaus.jackson.map.ObjectMapper._readMapAndClose(ObjectMapper.java:2723)
+	at org.codehaus.jackson.map.ObjectMapper.readValue(ObjectMapper.java:1861)
+	at lab.web.rest.FileRESTServiceClient.getListAllFiles(FileRESTServiceClient.java:115)
+	at lab.web.WriteSameFileTwiceApiTest.clearWorkspace(WriteSameFileTwiceApiTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
+  </testcase>
+  <testcase name="tryWriteFileTwiceRest" classname="lab.web.DownloadSameFileTwiceApiTest" time="0.619"/>
+  <testcase name="tryWriteFileTwiceSoap" classname="lab.web.DownloadSameFileTwiceApiTest" time="0.037">
+    <failure message="java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)" type="javax.xml.ws.WebServiceException"><![CDATA[javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap(DownloadSameFileTwiceApiTest.java:34)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap(DownloadSameFileTwiceApiTest.java:34)
+]]></failure>
+    <system-out><![CDATA[2019-03-11 15:50:58 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] passed successful
+2019-03-11 15:50:58 INFO  DownloadSameFileTwiceApiTest:44 - after method
+2019-03-11 15:50:58 INFO  ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:58 INFO  ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:50:58 INFO  FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:50:58 INFO  FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 15:50:58 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1], Started
+2019-03-11 15:50:58 INFO  DownloadSameFileTwiceApiTest:30 - tryWriteAndDeleteFileSoap test
+2019-03-11 15:50:58 INFO  ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:58 INFO  ServiceFactory:20 - Creating Soap file service client
+2019-03-11 15:50:59 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DownloadSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DownloadSameFileTwiceApiTest@5702b3b1] failed in
+]]></system-out>
+    <system-err><![CDATA[org.codehaus.jackson.JsonParseException: Unexpected character ('s' (code 115)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: java.io.StringReader@426b6a74; line: 1, column: 3]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:385)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:306)
+	at org.codehaus.jackson.impl.ReaderBasedParser._handleUnexpectedValue(ReaderBasedParser.java:1192)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:479)
+	at org.codehaus.jackson.map.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:164)
+	at org.codehaus.jackson.map.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:146)
+	at org.codehaus.jackson.map.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:18)
+	at org.codehaus.jackson.map.ObjectMapper._readMapAndClose(ObjectMapper.java:2723)
+	at org.codehaus.jackson.map.ObjectMapper.readValue(ObjectMapper.java:1861)
+	at lab.web.rest.FileRESTServiceClient.getListAllFiles(FileRESTServiceClient.java:115)
+	at lab.web.DownloadSameFileTwiceApiTest.clearWorkspace(DownloadSameFileTwiceApiTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
+  </testcase>
+  <testcase name="tryWriteFileTwiceRest" classname="lab.web.DeleteSameFileTwiceApiTest" time="0.362"/>
+  <testcase name="tryWriteFileTwiceSoap" classname="lab.web.DeleteSameFileTwiceApiTest" time="0.052">
+    <failure message="java.lang.NoSuchMethodException: lab.web.soap.ServiceException.&lt;init&gt;(java.lang.String, lab.web.soap.LibraryFault)" type="javax.xml.ws.WebServiceException"><![CDATA[javax.xml.ws.WebServiceException: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap(DeleteSameFileTwiceApiTest.java:33)
+Caused by: java.lang.NoSuchMethodException: lab.web.soap.ServiceException.<init>(java.lang.String, lab.web.soap.LibraryFault)
+	at lab.web.DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap(DeleteSameFileTwiceApiTest.java:33)
+]]></failure>
+    <system-out><![CDATA[2019-03-11 15:50:59 INFO  LoggerListener:19 - Test : tryWriteFileTwiceRest , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceRest()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] passed successful
+2019-03-11 15:50:59 INFO  DeleteSameFileTwiceApiTest:43 - after method
+2019-03-11 15:50:59 INFO  ServiceFactory:13 - getFileService factory method
+2019-03-11 15:50:59 INFO  ServiceFactory:17 - Creating Rest file service client
+2019-03-11 15:51:00 INFO  FileRESTServiceClient:100 - getListAllFiles method
+2019-03-11 15:51:00 INFO  FileRESTServiceClient:104 - path: http://localhost:8080/MykhailoKozakFileStorageService/fileREST/files
+2019-03-11 15:51:00 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 15:51:00 INFO  LoggerListener:13 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742], Started
+2019-03-11 15:51:00 INFO  DeleteSameFileTwiceApiTest:29 - tryWriteAndDeleteFileSoap test
+2019-03-11 15:51:00 INFO  ServiceFactory:13 - getFileService factory method
+2019-03-11 15:51:00 INFO  ServiceFactory:20 - Creating Soap file service client
+2019-03-11 15:51:00 WARN  LoggerListener:25 - Test : tryWriteFileTwiceSoap , Method : DeleteSameFileTwiceApiTest.tryWriteFileTwiceSoap()[pri:0, instance:lab.web.DeleteSameFileTwiceApiTest@69ea3742] failed in
+]]></system-out>
+    <system-err><![CDATA[org.codehaus.jackson.JsonParseException: Unexpected character ('s' (code 115)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: java.io.StringReader@4816c290; line: 1, column: 3]
+	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:385)
+	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:306)
+	at org.codehaus.jackson.impl.ReaderBasedParser._handleUnexpectedValue(ReaderBasedParser.java:1192)
+	at org.codehaus.jackson.impl.ReaderBasedParser.nextToken(ReaderBasedParser.java:479)
+	at org.codehaus.jackson.map.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:164)
+	at org.codehaus.jackson.map.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:146)
+	at org.codehaus.jackson.map.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:18)
+	at org.codehaus.jackson.map.ObjectMapper._readMapAndClose(ObjectMapper.java:2723)
+	at org.codehaus.jackson.map.ObjectMapper.readValue(ObjectMapper.java:1861)
+	at lab.web.rest.FileRESTServiceClient.getListAllFiles(FileRESTServiceClient.java:115)
+	at lab.web.DeleteSameFileTwiceApiTest.clearWorkspace(DeleteSameFileTwiceApiTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
+  </testcase>
+</testsuite>
